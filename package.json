@@ -1,0 +1,18 @@
+{
+  "name": "yinhua-daily-monitor",
+  "version": "1.0.0",
+  "description": "银华日利套利监控器",
+  "main": "scripts/yinhua_monitor.py",
+  "scripts": {
+    "monitor": "python scripts/yinhua_monitor.py --schedule",
+    "once": "python scripts/yinhua_monitor.py --once",
+    "test": "python scripts/yinhua_monitor.py --test"
+  },
+  "keywords": [
+    "银华日利",
+    "套利",
+    "货币基金",
+    "折溢价",
+    "监控"
+  ]
+}
