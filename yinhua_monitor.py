@@ -41,9 +41,9 @@ TUESDAY_THRESHOLD = 0.001   # 周二溢价万1 触发模式D
 MX_APIKEY = os.environ.get("MX_APIKEY", "").strip()
 
 # 飞书开放平台配置
-FEISHU_APP_ID = os.environ.get("FEISHU_APP_ID", "cli_a92fee8f66791cd1").strip()
-FEISHU_APP_SECRET = os.environ.get("FEISHU_APP_SECRET", "69X0AJdYp8ZBNRIdWMv7Oe4PJGY4WUNX").strip()
-FEISHU_RECEIVE_ID = os.environ.get("FEISHU_RECEIVE_ID", "ou_9457a90140c97c4d7ff683801686ba56").strip()  # 接收消息的用户open_id
+FEISHU_APP_ID = os.environ.get("FEISHU_APP_ID", "").strip()
+FEISHU_APP_SECRET = os.environ.get("FEISHU_APP_SECRET", "").strip()
+FEISHU_RECEIVE_ID = os.environ.get("FEISHU_RECEIVE_ID", "").strip()  # 接收消息的用户open_id
 FEISHU_RECEIVE_TYPE = os.environ.get("FEISHU_RECEIVE_TYPE", "open_id").strip()  # open_id, user_id, union_id, chat_id
 
 # 备用数据源URL
